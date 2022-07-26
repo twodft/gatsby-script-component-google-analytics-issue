@@ -1,0 +1,29 @@
+{
+  "name": "gatsby-script-component-google-analytics",
+  "version": "1.0.0",
+  "description": "Example repo using Gatsby's Script component and Google Analytics GA4 Property",
+  "main": "index.js",
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "serve": "gatsby serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaulieScanlon/gatsby-script-component-google-analytics.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PaulieScanlon/gatsby-script-component-google-analytics/issues"
+  },
+  "homepage": "https://github.com/PaulieScanlon/gatsby-script-component-google-analytics#readme",
+  "dependencies": {
+    "gatsby": "^4.19.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
