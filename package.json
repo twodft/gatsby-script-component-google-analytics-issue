@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/PaulieScanlon/gatsby-script-component-google-analytics#readme",
   "dependencies": {
-    "gatsby": "^4.19.2",
+    "gatsby": "^4.21.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
