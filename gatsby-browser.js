@@ -1,22 +1,19 @@
-import React from 'react';
-import RootElement from './src/components/root-element';
+import React from 'react'
 
 export const onRouteUpdate = ({ location }) => {
-  if (process.env.NODE_ENV !== 'production') {
-    return null;
-  }
+	if (process.env.NODE_ENV !== 'production') {
+		return null
+	}
 
-  const pagePath = location ? location.pathname + location.search + location.hash : undefined;
+	const pagePath = location
+		? location.pathname + location.search + location.hash
+		: undefined
 
-  setTimeout(() => {
-    if (typeof window.gtag === 'function') {
-      window.gtag('event', 'page_view', { page_path: pagePath });
-    }
-  }, 100);
+	setTimeout(() => {
+		if (typeof window.gtag === 'function') {
+			window.gtag('event', 'page_view', { page_path: pagePath })
+		}
+	}, 100)
 
-  return true;
-};
-
-export const wrapRootElement = ({ element }) => {
-  return <RootElement>{element}</RootElement>;
-};
+	return true
+}
